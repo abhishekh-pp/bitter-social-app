@@ -143,7 +143,6 @@ const PostList = () => {
         <div className="w-full lg:w-1/2 ">
           <div className="mb-8">
             <div className="flex items-center mb-4">
-              {/* <FaUser className="w-8 h-8 mr-2" /> */}
               {loggedInUser && (
              <img src={`https://robohash.org/${loggedInUser.id}.png`} alt="User Avatar" className="w-8 h-8 rounded-full mr-2" />)}
               <input
@@ -188,8 +187,6 @@ const PostList = () => {
               </div>
             </div>
           )}
-
-
 
 
           <div>
